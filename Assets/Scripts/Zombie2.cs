@@ -6,5 +6,5 @@ public class Zombie2 : MonoBehaviour
 {
     [SerializeField] Animator animator;
     [SerializeField] AudioSource audioSource;
-
 }
+

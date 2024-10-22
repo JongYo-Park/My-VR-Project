@@ -230,6 +230,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1332,6 +1336,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -16508,6 +16516,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -19398,6 +19410,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -24515,6 +24531,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -41601,6 +41621,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -44482,6 +44506,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -44770,6 +44798,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -49140,6 +49172,10 @@ PrefabInstance:
       propertyPath: attackSound
       value: 
       objectReference: {fileID: 8300000, guid: 5ce6bb262e363834db2b5cdef8a21155, type: 3}
+    - target: {fileID: -1579539646509761626, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
+      propertyPath: lookDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 578376449398627443, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
       propertyPath: m_RootOrder
       value: 10

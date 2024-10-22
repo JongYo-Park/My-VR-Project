@@ -29,10 +29,6 @@ public class Shooter : MonoBehaviour
         source = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
-    private void Update()
-    {
-        Debug.DrawLine(firePoint.position, firePoint.position + firePoint.forward * weaponRange, Color.red);
-    }
     public void Fire()
     {
         muzzleFlash.Play();
@@ -46,19 +42,19 @@ public class Shooter : MonoBehaviour
         if (Physics.Raycast(rayOrigin, firePoint.forward, out hit, weaponRange))
         {
             HandleHit(hit);
-
-            if (hit.collider.CompareTag("Zombie"))
-            {
-                Destroy(hit.collider.gameObject, 2f);
-            }
-            if (hit.collider.CompareTag("Zombie2"))
-            {
-                StartCoroutine(LoadGameSceneAfterDelay(2f));
-            }
         }
     }
     void HandleHit(RaycastHit hit)
     {
+        if (hit.collider.CompareTag("Zombie"))
+        {
+            Destroy(hit.collider.gameObject, 2f);
+        }
+        else if (hit.collider.CompareTag("Zombie2"))
+        {
+            StartCoroutine(LoadGameSceneAfterDelay(2f));
+        }
+
         if (hit.collider.sharedMaterial != null)
         {
             string materialName = hit.collider.sharedMaterial.name;
