@@ -9,11 +9,13 @@ TagManager:
   - Metal
   - ExplosiveBarrel
   - Zombie
+  - Concrete
+  - Zombie2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
