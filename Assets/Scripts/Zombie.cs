@@ -107,4 +107,8 @@ public class Zombie : MonoBehaviour
         agent.isStopped = true;
         Destroy(gameObject, 5f);
     }
+    private void OnDestroy()
+    {
+        FindObjectOfType<EscapeDoor>()?.ZombieDestroyed();
+    }
 }

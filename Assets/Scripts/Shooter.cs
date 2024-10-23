@@ -48,7 +48,6 @@ public class Shooter : MonoBehaviour
     {
         if (hit.collider.CompareTag("Zombie"))
         {
-            FindObjectOfType<EscapeDoor>().ZombieDestroyed();
             Destroy(hit.collider.gameObject, 2f);
         }
         else if (hit.collider.CompareTag("Zombie2"))
